@@ -1,0 +1,15 @@
+-Schema
+{
+	id: '23235235',
+	description: '...',
+	done: false,
+	important: false,
+}
+Id => Date.now()
+------------------
+- Add Words limit for textArea => 1/150
+- Add tooltips
+- Auto focus on textarea when loads
+- Add transition
+- Search/sorting Algorithm
+

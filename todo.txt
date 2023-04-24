@@ -12,4 +12,8 @@ Id => Date.now()
 - Auto focus on textarea when loads
 - Add transition
 - Search/sorting Algorithm
-
+- Limit search input => 65
+- Add description in update input / editing
+- Store posts in local storge
+- Add A Delete All button in Navbar
+- Get A good CSS Background Pattern

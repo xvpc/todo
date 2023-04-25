@@ -7,15 +7,15 @@ export const postsSlice = createSlice({
     },
     reducers: {
         addPost: (state, action) => {
-            state.posts.push(action.payload)
             localStorage.setItem('userList', JSON.stringify([...state.posts, action.payload]))
+            return {...state, posts: [...state.posts, action.payload]}
         },
         deletePost: (state, action) => {
             const filteredPosts = state.posts.filter((items) => {
                 return items.id !== action.payload.id
             })
-            state.posts = filteredPosts
             localStorage.setItem('userList', JSON.stringify([...filteredPosts]))
+            return {...state, posts: [...filteredPosts]}
         },
         deleteAll: (state, action) => {
             state.posts = []

@@ -158,7 +158,7 @@ export default function Home() {
 
     // 
     return (
-        <div className="main-content-container bg-dark text-white min-vh-100 d-flex flex-column justify-content-between align-items-center">
+        <div style={{backgroundImage: 'url(./images/wave-haikei.png)'}} className="main-content-container bg-dark text-white min-vh-100 d-flex flex-column justify-content-between align-items-center">
             <main className='main-container my-5 container-fluid d-flex flex-column justify-content-center align-items-center gap-5'>
                 <div className='input-container container d-flex flex-column justify-content-center align-items-center gap-2'>
                     <div style={{height: '80px'}} className="input-group position-relative overflow-hidden shadow">

@@ -63,7 +63,7 @@ html {
 
 /* Start Main */
 .main-content-container{
-    background-image: url(../public/images/wave-haikei.svg);
+    background-image: url(./images/wave-haikei.svg);
     background-repeat: repeat-x;
     background-size: cover;
     background-position: center;

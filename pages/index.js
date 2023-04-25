@@ -8,7 +8,7 @@ export default function Main() {
     <>
       <Head>
           <title>TO-DO</title>
-        <meta name="description" content="To Do App" />
+        <meta name="description" content="Simple To Do App" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="keywords" content='todo, todo list, to do, to do list, CRUD, CRUD app, github, website, viper, add, note, delete, edit, done, mark, html, css, javascript, react, nextjs, react.js, bootstrap, sass, design, website design' />
         

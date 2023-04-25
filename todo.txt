@@ -1,19 +1,21 @@
 -Schema
 {
 	id: '23235235',
+	date: 25/04/2023, 02:49:52,
 	description: '...',
 	done: false,
 	important: false,
 }
 Id => Date.now()
 ------------------
-- Add Words limit for textArea => 1/150
-- Add tooltips
-- Auto focus on textarea when loads
-- Add transition
-- Search/sorting Algorithm
-- Limit search input => 65
-- Add description in update input / editing
-- Store posts in local storge
-- Add A Delete All button in Navbar
-- Get A good CSS Background Pattern
+// Add Words limit for textArea => 1/150
+// Add tooltips
+// Autofocus on textarea when loads
+// Add transition
+// Search/sorting Algorithm
+// Limit search input => 65
+// Make A modal for edit input + Add description in it
+// Store posts in local storge
+// Add A Delete All button in Navbar
+// Get A good CSS Background Pattern
+Make A README file

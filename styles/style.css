@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,300;1,400&family=Sigmar&display=swap');
 
 :root{
+    --main-color: #0066FF;
     --main-transition: .5s;
-    
+    --overlay-color: #8080804f;
 }
 *{
     font-family: Arial, Helvetica, sans-serif;
@@ -25,7 +26,9 @@ svg{
     cursor: pointer;
 }
 .navbar-container,
-.footer-container{
+.footer-container,
+.posts-main-container,
+.posts-containers{
     transition: var(--main-transition);
 }
 /* Start Scrollbar */
@@ -50,33 +53,32 @@ html {
     scrollbar-color: rgba(222, 222, 223, 0.678) black;
 }
 /* End Scrollbar */
+
 /* Start Custom classes */
-.remove-selecting{
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-drag: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-}
 .opacity-hover:hover{
-    transition: 0.3s;
-    opacity: .6;
-}
-.shadow-plugin{
-    box-shadow: 0 12px 20px 0 rgba(255, 251, 251, 12%);
-}
-.bg-lightblack{
-    background-color: rgba(15, 15, 15, 0.863);
+    transition: .3s;
+    background-color: var(--overlay-color);
 }
 /* End Custom classes */
 
 /* Start Main */
+.main-content-container{
+    background-image: url(../public/images/wave-haikei.svg);
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: center;
+}
+.input-group textarea{
+    border: 1px solid gray;
+}
+.input-group textarea:focus{
+    border: 1px solid var(--main-color);
+}
 .posts-containers{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px ,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 10px;
     place-content: center;
-    transition: var(--main-transition);
 }
 /* End Main */
 

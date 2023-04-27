@@ -214,7 +214,7 @@ export default function Home() {
             <footer className="bg-black p-1 w-100 d-flex flex-row flex-wrap justify-content-center align-items-center gap-2">
                 <div className='mw-25 d-flex flex-row flex-wrap justify-content-center align-items-center gap-2'>
                     <p className='p-0 m-0'>Created By:<span className='ms-2 fw-bold p-0 m-0'>Viper</span></p> |
-                    <Link style={{width: '30px', height: '30px'}} className='bg-dark overflow-hidden rounded-1' title='Portfolio' href='https://xvpc.github.io/portfolio' target='_blank'><Image className='img-fluid' src={'https://i.ibb.co/9WxCSdZ/android-chrome-512x512.png'} width={512} height={512} alt='Portfolio Icon'/></Link>
+                    <Link style={{width: '30px', height: '30px'}} className='bg-dark overflow-hidden rounded-1' title='Portfolio' href='https://xvpc.dev' target='_blank'><Image className='img-fluid' src={'https://i.ibb.co/9WxCSdZ/android-chrome-512x512.png'} width={512} height={512} alt='Portfolio Icon'/></Link>
                 </div>
             </footer>
         </div>
